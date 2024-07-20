@@ -5,6 +5,7 @@ import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
 
 
+
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = ()=> setNav(!nav)
@@ -57,22 +58,22 @@ const Navbar = () => {
        <div className='hidden lg:flex fixed flex-col top-[35%] left-0 '>
        <ul>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
-          <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+          <a className='flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/bisrat-zerihun-6922a378'>
             Linkedin <FaLinkedin size={30}/>
           </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-          <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+          <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/Hellobisrat'>
             GitHub <FaGithub size={30}/>
           </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
-          <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+          <a className='flex justify-between items-center w-full text-gray-300' href='#contact'>
             Email <HiOutlineMail size={30}/>
           </a>
         </li>
         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-          <a className='flex justify-between items-center w-full text-gray-300' href='/'>
+          <a className='flex justify-between items-center w-full text-gray-300' href='../assets/CV.pdf' target="_blank">
             Resume <BsFillPersonLinesFill size={30}/>
           </a>
         </li>
