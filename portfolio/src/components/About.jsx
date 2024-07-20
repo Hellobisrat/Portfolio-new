@@ -16,11 +16,14 @@ const About = ()=>{
             </div>
             <div>
               <p>
-                I am passionate about building excellent sofrware that improves
-                the lives of those around me. I specialize in creating sofrware
-                for clients ranging from individuals and small-business all the way to 
-                large enterprise corporations. What would you do 
-                if you had a software expert available at your fingertips?
+                Hi, I'm Bisrat, a passionate Full Stack Developer 
+                  experience in web applications. specialize in 
+                  JavaScript,React,Node.js, express.js. i have strong
+                  background in developing scalable web applications
+                  and RESTful APIs. i have worked on various projects
+                  include an e-commerce platform. Feel free to check out
+                  my portfolio or connect with me on LinkedIn. Let's build
+                  something amazing together.
                 
               </p>
             </div>
